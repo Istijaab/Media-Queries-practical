@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    max-width: 1440px;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    background-image: url(img/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    width: 80%;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div h2{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 100px;
+    line-height: 1.2em;
+}
+.others{
+    margin-bottom: 20px;
+}
+.watch{
+    font-size: small;
+    font-weight: 400;
+    margin-left: 100px;
+    line-height: 1.7em;
+}
+#intro{
+    border: 1px solid hsl(248, 32%, 49%);
+    border-radius: 5px;
+    font-size: x-small;
+    background-color: hsl(248, 32%, 49%);
+    padding: 15px 10px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: white;
+    width: 75%;
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-align: center;
+    font-size: x-small;
+    border: 1px solid hsl(154, 59%, 51%);
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    width: 90%;
+}
+.click{
+    color: hsl(246, 25%, 77%);
+    font-size: 8px;
+    padding: 10px 0 0 10px;
+    font-weight: 400;
+    width: 90%;
+}
+form{
+    background-color: white;
+    border: 1px soild white;
+    border-radius: 10px;
+    width: 75%;
+    padding: 40px 0 70px 30px;
+    margin-right: 300px;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
+:placeholder-shown{
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+input:focus{
+    border: 1px solid hsl(246, 25%, 60%);
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+input{
+    background-color: transparent;
+    color: hsl(240, 4%, 74%);
+    font-size: medium;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    width: 90%;
+    font-size: 14px;
+}
+input:required:invalid{
+    background-image: url(img/icon-error.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border: 1px soild hsl(0, 100%, 74%);
+    outline: none;
+}
+input:invalid+span{
+    display: inline;
+    float: right;
+    font-size: 14px;
+    color: hsl(0, 100%, 74%);
+}
+input:invalid{
+    border: 1px solid hsl(0, 100%, 74%);
+    outline: none;
+}
+span{
+    display: none;
+}
+button:hover{
+    cursor: pointer;
+}
