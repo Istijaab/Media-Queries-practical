@@ -1,0 +1,21 @@
+input:required:invalid{
+    background-image: url(img/icon-error.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border: 1px soild hsl(0, 100%, 74%);
+    outline: none;
+}
+input:invalid+span{
+    display: inline;
+    float: right;
+    font-size: 14px;
+    color: hsl(0, 100%, 74%);
+}
+input:invalid{
+    border: 1px solid hsl(0, 100%, 74%);
+    outline: none;
+}
+span{
+    display: none;
+}
